@@ -1,0 +1,137 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.first-section-content{
+    background-color: #464364;
+}
+.first-section-content div{
+    margin-left: 1rem;
+    font-size: 12px;
+}
+.second-section-content div{
+    margin: 0 0 2rem 1rem;
+}
+.image{
+    border-radius: 50%;
+    border: none;
+    margin: 1rem 5rem;
+}
+.first-section-content{
+    color: #ffffff;
+}
+.circ{
+    font-size: 6px;
+}
+.circs{
+    font-size: 6px;
+    border-radius: 50%;
+    color: #9e9898;
+    background-color: #9e9898;
+}
+.first-section-content li{
+    list-style: none;
+}
+.hr{
+    width: 14%;
+    margin-left: 1rem;
+    background-color: #000000;
+    color: #000000;
+}
+.olivia{
+    color: #464364;
+    margin-left: 1rem;
+}
+.project-manager{
+    margin-left: 1rem;
+}
+.project-manager, .personal, .work, .education{
+    color:#64b9e0
+}
+.westheon-text, .pixel-text, .masters-text, .product-text{
+    color: #b1a2a2;
+}
+.second-section-content h4{
+    margin: 0.5rem 0;
+}
+.personal{
+    margin: 4rem 0 0 0;
+}
+.sponsors img{
+    width: 20%;
+    height: 20%;
+    margin: 0 1rem;
+}
+.read-more{
+    margin: 0 0 0 1rem;
+    padding: 8px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #f2f2f2;
+    text-decoration: none;
+    background-color: #64b9e0;
+}
+@media only screen and (min-width: 768px) {
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+    .image{
+        margin: 4rem 9rem;
+    }
+    .first-section-content{
+        width: 43vw;
+        /* margin-bottom: 1.5rem; */
+    }
+    .second-section{
+        background-color: #f4f4f4;
+    }
+    .first-section-content div{
+        margin-left: 3rem;
+        font-size: 13px;
+    }
+    .second-section-content div{
+        margin: 0 0 2rem 5rem;
+    }
+    .project-manager{
+        margin-left: 5rem;
+    }
+    .olivia{
+        font-size: 45px;
+        margin: 5rem 5rem;
+    }
+    .hr{
+        margin: -3.5rem 0 0 5rem;
+        width: 8%;
+    }
+    .personal{
+        margin: 6rem 0 0 0;
+    }
+    .section-section-content li{
+        margin: 0.5rem 0;
+    }
+    .first-section-content li{
+        margin: 1.5rem 0;
+    }
+    .contact-section p{
+        margin: 1.5rem 0;
+    }
+    .skills{
+        margin: 5rem 0 0 0;
+    }
+    .awards-section{
+        margin: 5rem 0 0 0;
+    }
+    .awards-section p{
+        margin: 2rem 0 1rem 0.5rem;
+    }
+    .sponsors img{
+        width: 25%;
+        height: 25%;
+    }
+    .read-more{
+        padding: 5px 15px;
+    }
+}
